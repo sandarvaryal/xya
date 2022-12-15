@@ -1,0 +1,338 @@
+*{
+    margin : 0;
+    padding : 0;    
+    box-sizing : border-box;       
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*                  HEADER STARS                    */
+
+header {
+    background-color: #131c27;
+}  
+
+nav {
+    display: flex;
+    min-height: 10vh;
+    align-items: center;
+    width: 90%;
+    margin: auto; 
+    flex-wrap: wrap;
+}
+
+.logo{
+    font-size: 4rem;
+    flex: 2.6 1 40rem;
+    color: white;
+    font-family: 'Pattaya', sans-serif;
+}
+
+nav li,
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+
+/*                  HEADER ENDS                 */
+
+/*                  FIRST PAGE STARTS                   */
+
+.first-page {
+    display: flex;
+    min-height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/first-ko-photo.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+      
+}
+
+.first-page h3 {
+    padding: 5rem;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.first-page h2 {
+    font-size: 4rem;
+}
+
+
+.first-page button {
+    padding: 2rem 6rem;
+    background: #4c6e97;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 2.3rem;
+    transition : all 0.5s ease-in-out;
+}
+
+.first-page button:hover {
+    background-color: #27394e;
+}
+
+
+/*                  SECOND PAGE START                   */
+
+.offers {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),   url("images/christmas-offer.jpeg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    color: rgb(166, 164, 164);
+    align-items: center;
+}
+
+.offers-div {
+    width: 90%;
+    margin: auto;
+}
+
+.offers h3,
+h4,
+p{
+    padding: 3rem;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.offers h2 {
+    padding: 3rem;
+    font-size: 3rem;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5rem;
+}
+
+.offers button {
+    padding: 2rem 6rem;
+    background: #334862;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 2.3rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    transition : all 0.5s ease-in-out;
+}
+
+.offers button:hover {
+     background-color:#1e2b3b ;
+}
+
+/*                  BENEFITS PAGE STARTS                    */
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("images/benefits-back.jpg");  
+}
+
+.benefits-header {
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: rgba(19, 28, 39,0.75);
+  
+}
+
+.cards {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.benefits h2{
+    padding: 3rem;
+    font-size: 3rem;
+    color: rgb(200, 198, 198);
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin: 2rem 5rem;
+    flex: 1 1 25rem;
+    align-items: center;
+    min-height: 45vh;
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0,0.3), 0px 20px 20px rgba(0, 0, 0,0.3);
+    border-radius: 2rem;
+}
+
+.card h2{
+    color: black;
+}
+
+.card-icon {
+    background: rgb(200, 198, 198)  ;
+    width: 100%;
+    padding: 2rem;
+}
+
+.card img {
+    height: 15rem;
+    
+}
+
+/*                  BENEFITS PAGE ENDS                  */
+
+/*                  CONTACT PAGE STARTS                 */
+
+.contact-ko-page {
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("images/contact-ko-photo.jpg");
+    min-height: 100vh;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-ko-page header {
+    background: none;
+    text-align: center;
+    padding: 5rem;
+    font-size: 4rem;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: rgba(19, 28, 39,0.8);
+    color: white;
+    width: 60%;
+    border-radius: 3rem;
+}
+
+.name-contact,
+.email-contact {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.contact-wrapper button {
+    width: 100%;
+    margin-top: 5rem;
+    padding: 1.7rem;
+    font-size: 3rem;
+    cursor: pointer;
+    background: #486589;
+    color: white;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    transition : all 0.5s ease-in-out;
+}
+
+.contact-wrapper button:hover {
+    background-color:#1e2b3b ;
+}
+
+.contact-wrapper label {
+    padding: 5rem;
+}
+
+.wrapper input {
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+}
+
+/*                  FOOTER                  */
+
+
+footer {
+    background-color: #131c27;
+}
+
+.footer-last {
+    height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.footer-last h5 {
+    font-size: 2rem;
+    flex: 1;
+}
+
+.footer-last img {
+    height: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 920px){
+    nav {
+        text-align: center;
+    }
+    .logo {
+        padding: 1rem;
+    }
+    .contact-wrapper {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
