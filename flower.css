@@ -93,7 +93,7 @@ nav a {
 
 /*                  SECOND PAGE START                   */
 
-.offers {
+#offers {
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),   url("images/christmas-offer.jpeg");
     min-height: 100vh;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ nav a {
     margin: auto;
 }
 
-.offers h3,
+#offers h3,
 h4,
 p{
     padding: 3rem;
@@ -117,14 +117,14 @@ p{
     font-size: 2rem;
 }
 
-.offers h2 {
+#offers h2 {
     padding: 3rem;
     font-size: 3rem;
     text-decoration: underline;
     text-decoration-thickness: 0.5rem;
 }
 
-.offers button {
+#offers button {
     padding: 2rem 6rem;
     background: #334862;
     border: none;
@@ -136,13 +136,13 @@ p{
     transition : all 0.5s ease-in-out;
 }
 
-.offers button:hover {
+#offers button:hover {
      background-color:#1e2b3b ;
 }
 
 /*                  BENEFITS PAGE STARTS                    */
 
-.benefits {
+#benefits {
     display: flex;
     flex-direction: column;
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("images/benefits-back.jpg");  
@@ -167,7 +167,7 @@ p{
     margin: auto;
 }
 
-.benefits h2{
+#benefits h2{
     padding: 3rem;
     font-size: 3rem;
     color: rgb(200, 198, 198);
@@ -206,7 +206,7 @@ p{
 
 /*                  CONTACT PAGE STARTS                 */
 
-.contact-ko-page {
+#contact-ko-page {
     display: flex;
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("images/contact-ko-photo.jpg");
     min-height: 100vh;
@@ -215,7 +215,7 @@ p{
     justify-content: center;
 }
 
-.contact-ko-page header {
+#contact-ko-page header {
     background: none;
     text-align: center;
     padding: 5rem;
